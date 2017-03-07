@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var prikazBloga: UIWebView!
+    var preuzmi: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+            prikazBloga.loadHTMLString(preuzmi!, baseURL: URL(string: "http://georgetteoden.blogspot.rs"))
+            prikazBloga.contentMode = UIViewContentMode.scaleAspectFill
     }
 
     override func didReceiveMemoryWarning() {

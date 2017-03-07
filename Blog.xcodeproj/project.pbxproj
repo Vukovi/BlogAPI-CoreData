@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5A31B11D391E3100C9CAC8 /* BlogBaza+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A31AF1D391E3100C9CAC8 /* BlogBaza+CoreDataProperties.swift */; };
+		BF5A31B21D391E3100C9CAC8 /* BlogBaza.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A31B01D391E3100C9CAC8 /* BlogBaza.swift */; };
 		BFAE1F3D1D36741F00425B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE1F3C1D36741F00425B39 /* AppDelegate.swift */; };
 		BFAE1F3F1D36741F00425B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE1F3E1D36741F00425B39 /* ViewController.swift */; };
 		BFAE1F421D36741F00425B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAE1F401D36741F00425B39 /* Main.storyboard */; };
 		BFAE1F451D36741F00425B39 /* Blog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFAE1F431D36741F00425B39 /* Blog.xcdatamodeld */; };
 		BFAE1F471D36741F00425B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAE1F461D36741F00425B39 /* Assets.xcassets */; };
 		BFAE1F4A1D36741F00425B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAE1F481D36741F00425B39 /* LaunchScreen.storyboard */; };
+		BFAE1F561D3677C400425B39 /* BlogTabela.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE1F551D3677C400425B39 /* BlogTabela.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF5A31AF1D391E3100C9CAC8 /* BlogBaza+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BlogBaza+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BF5A31B01D391E3100C9CAC8 /* BlogBaza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogBaza.swift; sourceTree = "<group>"; };
 		BFAE1F391D36741F00425B39 /* Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAE1F3C1D36741F00425B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAE1F3E1D36741F00425B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		BFAE1F461D36741F00425B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFAE1F491D36741F00425B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFAE1F4B1D36741F00425B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAE1F551D3677C400425B39 /* BlogTabela.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogTabela.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 		BFAE1F301D36741F00425B39 = {
 			isa = PBXGroup;
 			children = (
+				BF5A31AF1D391E3100C9CAC8 /* BlogBaza+CoreDataProperties.swift */,
+				BF5A31B01D391E3100C9CAC8 /* BlogBaza.swift */,
 				BFAE1F3B1D36741F00425B39 /* Blog */,
 				BFAE1F3A1D36741F00425B39 /* Products */,
 			);
@@ -58,6 +66,7 @@
 			children = (
 				BFAE1F3C1D36741F00425B39 /* AppDelegate.swift */,
 				BFAE1F3E1D36741F00425B39 /* ViewController.swift */,
+				BFAE1F551D3677C400425B39 /* BlogTabela.swift */,
 				BFAE1F401D36741F00425B39 /* Main.storyboard */,
 				BFAE1F461D36741F00425B39 /* Assets.xcassets */,
 				BFAE1F481D36741F00425B39 /* LaunchScreen.storyboard */,
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					BFAE1F381D36741F00425B39 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -138,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAE1F561D3677C400425B39 /* BlogTabela.swift in Sources */,
+				BF5A31B21D391E3100C9CAC8 /* BlogBaza.swift in Sources */,
 				BFAE1F3F1D36741F00425B39 /* ViewController.swift in Sources */,
+				BF5A31B11D391E3100C9CAC8 /* BlogBaza+CoreDataProperties.swift in Sources */,
 				BFAE1F451D36741F00425B39 /* Blog.xcdatamodeld in Sources */,
 				BFAE1F3D1D36741F00425B39 /* AppDelegate.swift in Sources */,
 			);
@@ -256,9 +269,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Blog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.Blog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -267,9 +282,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Blog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.Blog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -292,6 +309,7 @@
 				BFAE1F501D36741F00425B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
